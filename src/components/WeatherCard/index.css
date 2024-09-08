@@ -1,0 +1,33 @@
+.weather-card-li-weather{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+
+.weather-card-link{
+    width: 20%;
+    display: flex;
+    color: black;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.weather-card-para{
+    text-align: center;
+    background-color: white;
+    width: 20%;
+}
+
+@media (max-width:600px) {
+    .weather-card-para{
+        font-size: 13px;
+    }
+
+    .weather-card-link{
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,87 @@
+.city-card-container{
+    width: 99%;
+    height: 94vh;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clear{
+    background-image: linear-gradient(to bottom, skyblue, white);
+}
+
+.snow{
+    background-image: linear-gradient(to bottom, blue, white);
+}
+
+.rainy{
+    background-image: linear-gradient(to bottom, darkblue, white);
+}
+
+.windy{
+    background-image: linear-gradient(to bottom, lightgreen, white);
+}
+
+.cloudy{
+    background-image: linear-gradient(to bottom, rgb(71, 89, 71), white);
+}
+
+.par-cloudy{
+    background-image: linear-gradient(to bottom, lightyellow, white);
+}
+
+.foggy{
+    background-image: linear-gradient(to bottom, #D7D0FF, white);
+}
+
+.storm{
+    background-image: linear-gradient(to bottom, black, white);
+}
+
+.city-container{
+    width: 30%;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: bisque;
+    padding: 5px;
+}
+
+.city-card-heading{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.city-card-para{
+    font-size: 17px;
+    margin-bottom: 3px;
+}
+
+.disp{
+    display: flex;
+    align-self: center;
+}
+
+.city-card-span{
+    margin-left: 10px;
+}
+
+@media (max-width:800px) {
+    .city-container{
+        width: 70%;
+    }
+
+    .city-card-heading{
+        font-size: 18px;
+    }
+
+    .city-card-para{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:1200px){
+    .city-container{
+        width: 50%;
+    }
+}
