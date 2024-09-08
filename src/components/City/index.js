@@ -93,7 +93,7 @@ class City extends Component{
             back="snow"
             icon=<BsCloudSnowFill />
         }
-        else if(description==="rainy"){
+        else if(description.includes("rain")){
             back="rainy"
             icon=<FaCloudRain />
         }
