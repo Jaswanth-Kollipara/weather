@@ -105,7 +105,7 @@ class City extends Component{
             back="cloudy"
             icon=<FaCloud />
         }
-        else if(description==="partialy cloudy"){
+        else if(description==="partialy cloudy" || description==="few clouds"){
             back="par-cloudy"
             icon=<FaCloudSun />
         }
